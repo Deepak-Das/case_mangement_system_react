@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from './Navbar';
-import { Header } from './Feater';
+import Showcase from './Showcase';
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Header/>
+      <Showcase />
     </>
   );
 };
