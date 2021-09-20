@@ -3,13 +3,17 @@ import Carousel from 'react-bootstrap/Carousel';
 
 // Custom style for resizing low-res images, to be removed later
 const imgStyles = {
-  height: '360px',
+  height: '460px',
 };
+ const boxsize={
+   margin:'0px',
+   padding :'0px'
+ };
 
 const Showcase = () => {
   return (
-    <div className="container">
-      <Carousel fade={true} interval={3000} className="my-3">
+   
+      <Carousel fade={true} interval={3000} className="container-fluid my-2" style={boxsize}>
         <Carousel.Item>
           <img
             className="w-100"
@@ -40,7 +44,7 @@ const Showcase = () => {
         <Carousel.Item>
           <img
             className="w-100"
-            src="/images/download.jpeg"
+            src="/images/download_1.jpeg"
             alt="Third slide"
             style={imgStyles}
           />
@@ -53,7 +57,7 @@ const Showcase = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </div>
+
   );
 };
 
