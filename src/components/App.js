@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from './Navbar';
+import NavigationBar from './Navigationbar';
 import Showcase from './Showcase';
 
 const App = () => {
   return (
     <>
-      <Navbar />
+      <NavigationBar />
       <Showcase />
     </>
   );
