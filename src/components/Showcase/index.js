@@ -34,7 +34,7 @@ const Showcase = () => {
       <Carousel.Item>
         <img
           className="w-100"
-          src="/images/img2.jpg"
+          src="/images/img3.jpg"
           alt="Second slide"
           style={imgStyles}
         />
@@ -48,7 +48,7 @@ const Showcase = () => {
       <Carousel.Item>
         <img
           className="w-100"
-          src="/images/img3.jpg"
+          src="/images/img2.jpg"
           alt="Third slide"
           style={imgStyles}
         />
