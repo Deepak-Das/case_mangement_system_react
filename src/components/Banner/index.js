@@ -5,7 +5,7 @@ export const Banner = () => {
     <>
       <div className="container">
         <div className="d-md-flex flex-md-row justify-content-md-end text lead fw-bold">
-          <div className="text-end me-4">
+          <div className="text-end me-md-4">
             <i className="fa fa-envelope-o me-2" aria-hidden="true"></i>
             <span>adv.dks@gmail.com</span>
           </div>
