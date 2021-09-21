@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
 }
 
 code {
@@ -15,4 +16,9 @@ code {
 img {
   max-width: 100%;
   display: block;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
 }
