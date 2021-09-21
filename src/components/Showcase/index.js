@@ -1,23 +1,14 @@
-import React from "react";
-import Carousel from "react-bootstrap/Carousel";
+import React from 'react';
+import Carousel from 'react-bootstrap/Carousel';
 
 // Custom style for resizing low-res images, to be removed later
 const imgStyles = {
-  height: "460px",
-};
-const boxsize = {
-  margin: "0px",
-  padding: "0px",
+  height: '460px',
 };
 
 const Showcase = () => {
   return (
-    <Carousel
-      fade={true}
-      interval={3000}
-      className="container-fluid"
-      style={boxsize}
-    >
+    <Carousel fade={true} interval={3000} className="container-fluid">
       <Carousel.Item>
         <img
           className="w-100"
