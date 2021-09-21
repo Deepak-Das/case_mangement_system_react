@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 export const Overview = () => {
   const customeMargin = {
-    "margin-left": "($spacer * .16) !important",
-    "margin-right": "($spacer * .16) !important",
+    marginLeft: '($spacer * .16) !important',
+    marginRight: '($spacer * .16) !important',
   };
   return (
     <>
