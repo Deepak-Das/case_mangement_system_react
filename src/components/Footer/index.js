@@ -6,7 +6,7 @@ import "./style.scss";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer footer-bg">
       <Container className="py-3">
         <Row>
           <Col md={3} className="align-self-center">

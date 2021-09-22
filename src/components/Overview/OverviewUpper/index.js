@@ -3,7 +3,7 @@ import React from "react";
 export default function OverviewUpper() {
   return (
     <>
-      <div className="container p-3 ">
+      <div className="container p-3">
         <div className="row mb-5">
           <img
             src="./images/lawyer1.jpg"

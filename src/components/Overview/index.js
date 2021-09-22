@@ -6,7 +6,7 @@ import OverviewUpper from "./OverviewUpper";
 export const Overview = () => {
   return (
     <>
-      <section className="container-fluid border-bottom border-1 border-dark mb-5">
+      <section className="container-fluid border-bottom border-1 border-dark m-xy-0">
         <OverviewUpper />
         <OverviewMid />
         <OverviewBottom />
