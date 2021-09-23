@@ -12,10 +12,10 @@ const NavigationBar = () => {
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Associates</Nav.Link>
-            <Nav.Link href="#link">Login</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
+            <Nav.Link href="/home">Home</Nav.Link>
+            <Nav.Link href="/associates">Associates</Nav.Link>
+            <Nav.Link href="/Login">Login</Nav.Link>
+            <Nav.Link href="/About">About</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
