@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useHistory } from 'react-router-dom';
+import Layout from '../components/Layout';
 
 const DefaultPage = () => {
   const history = useHistory();
@@ -10,9 +11,10 @@ const DefaultPage = () => {
   };
 
   return (
-    <div className="container">
-      <h1 className="lead fw-normal py-4">
-        The page you're looking for does not exist. Please check the link.
+    <Layout className="container py-5 h-100">
+      <h1 className="h3 my-4">
+        The page you're looking for does not exist. Please check the entered
+        link.
       </h1>
 
       <Link
@@ -22,7 +24,7 @@ const DefaultPage = () => {
       >
         Go Back
       </Link>
-    </div>
+    </Layout>
   );
 };
 

@@ -6,7 +6,7 @@ function CardList() {
   return (
     <>
       {list.map((e, i) => {
-        return <CardView />;
+        return <CardView key={i} />;
       })}
     </>
   );

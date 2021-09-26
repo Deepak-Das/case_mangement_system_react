@@ -8,23 +8,25 @@ const NavigationBar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">Logo & Title</Navbar.Brand>
+        <Navbar.Brand as={NavLink} to="/">
+          ADV. DKS & ASSOCIATES
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link as={NavLink} to="/">
+            <Nav.Link as={NavLink} exact to="/">
               Home
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/associates">
+            <Nav.Link as={NavLink} exact to="/associates">
               Associates
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/login">
+            <Nav.Link as={NavLink} exact to="/login">
               Login
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/about">
+            <Nav.Link as={NavLink} exact to="/about">
               About
-            </Nav.Link>{' '}
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
