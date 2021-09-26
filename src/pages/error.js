@@ -1,11 +1,12 @@
-import React from 'react';
-import { Link, useHistory } from 'react-router-dom';
-import Layout from '../components/Layout';
+import React from "react";
+import { Link, useHistory } from "react-router-dom";
+import Layout from "../components/Layout";
 
 const DefaultPage = () => {
   const history = useHistory();
 
   const gotToPrevPage = (e) => {
+    console.log(e);
     e.preventDefault();
     history.goBack();
   };
