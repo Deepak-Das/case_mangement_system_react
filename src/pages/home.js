@@ -1,25 +1,22 @@
-import React from "react";
-import NavigationBar from "../components/Navigationbar";
-import { Banner } from "../components/Banner";
-import Showcase from "../components/Showcase";
-import { Overview } from "../components/Overview";
-import Footer from "../components/Footer";
-import CardList from "../components/cards/cardList";
-import { Container, Row } from "react-bootstrap";
+import React from 'react';
+import { Container, Row } from 'react-bootstrap';
+
+import Layout from '../components/Layout';
+import Showcase from '../components/Showcase';
+import { Overview } from '../components/Overview';
+import CardList from '../components/cards/cardList';
+
 const Home = () => {
   return (
-    <div>
-      <Banner />
-      <NavigationBar />
+    <Layout>
       <Showcase />
       <Overview />
-      <Container className="">
+      <Container>
         <Row md={3} className="justify-content-around">
-          <CardList className="" />
+          <CardList />
         </Row>
       </Container>
-      <Footer />
-    </div>
+    </Layout>
   );
 };
 

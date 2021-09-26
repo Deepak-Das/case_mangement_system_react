@@ -1,14 +1,14 @@
-import React from "react";
-import Carousel from "react-bootstrap/Carousel";
+import React from 'react';
+import Carousel from 'react-bootstrap/Carousel';
 
 // Custom style for resizing low-res images, to be removed later
 const imgStyles = {
-  height: "460px",
+  height: '87vh',
 };
 
 const boxsize = {
-  margin: "0px",
-  padding: "0px",
+  margin: '0px',
+  padding: '0px',
 };
 
 const Showcase = () => {

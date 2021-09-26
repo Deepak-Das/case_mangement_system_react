@@ -1,8 +1,8 @@
-import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import "./style.scss";
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import './style.scss';
 
 function Footer() {
   return (
@@ -21,26 +21,18 @@ function Footer() {
           </Col>
 
           <Col md={7} className="my-5 my-md-0 ">
-            {/* <iframe
-              src="www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234447.66995607846!2d85.18124037459347!3d23.3431424976028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e104aa5db7dd%3A0xdc09d49d6899f43e!2sRanchi%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1632239073056!5m2!1sen!2sin"
-              title="Location of adv. dks & associates main chambers"
-              width="100%"
-              frameBorder="0"
-              style={{ border: 0, minHeight: '276px' }}
-              allowFullScreen=""
-              aria-hidden="false"
-              tabIndex="0"
-            /> */}
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234447.66995607846!2d85.18124037459347!3d23.3431424976028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e104aa5db7dd%3A0xdc09d49d6899f43e!2sRanchi%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1632239151423!5m2!1sen!2sin"
               title="Location of adv. dks & associates main chambers"
-              style={{ border: 0, minHeight: "276px", width: "100%" }}
-              allowfullscreen=""
+              style={{ border: 0, minHeight: '276px', width: '100%' }}
+              allowFullScreen=""
               loading="lazy"
               frameBorder="0"
               aria-hidden="false"
               tabIndex="0"
             ></iframe>
+
+            <p className="lead text-center">ADV-DKS & ASSOCIATE</p>
           </Col>
           <Col
             md={2}
